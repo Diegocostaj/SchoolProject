@@ -1,0 +1,5 @@
+---
+- hosts: wordpress
+  tasks:
+    - name: run echo command
+      command: /bin/echo hello k!
